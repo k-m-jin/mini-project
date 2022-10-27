@@ -1,7 +1,7 @@
 import React, { createContext, useRef, useState } from 'react'
 import * as S from './style'
-import SignUpForm from '../../components/signUP/SignUpForm'
-import SignUpModal from '../../components/signUP/SignUpModal'
+import SignUpForm from '../../components/signUp/SignUpForm'
+import SignUpModal from '../../components/signUp/SignUpModal'
 import { Outlet } from 'react-router-dom'
 
 const initialFormData = {
